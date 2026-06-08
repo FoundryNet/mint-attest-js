@@ -1,0 +1,39 @@
+{
+  "name": "mint-attest",
+  "version": "0.1.0",
+  "description": "Attest AI work on MINT Protocol — tamper-evident, on-chain (Solana) proof for the Vercel AI SDK. Register, attest, verify; no wallet, no blockchain code.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+    "./vercel": { "types": "./dist/index.d.ts", "import": "./dist/index.js" }
+  },
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vercel",
+    "ai-sdk",
+    "mint",
+    "attestation",
+    "provenance",
+    "solana",
+    "ai-agents",
+    "verifiable-work"
+  ],
+  "author": "FoundryNet Labs <hello@foundrynet.io>",
+  "license": "MIT",
+  "homepage": "https://mint.foundrynet.io",
+  "repository": { "type": "git", "url": "git+https://github.com/FoundryNet/mint-attest-js.git" },
+  "engines": { "node": ">=18" },
+  "peerDependencies": { "ai": ">=3" },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ai": "^4.0.0",
+    "typescript": "^5.4.0"
+  }
+}
