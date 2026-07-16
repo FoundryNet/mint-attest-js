@@ -70,8 +70,10 @@ auto-provisioned keys, then pay via x402 or a metered key).
 
 ## Links
 
-- Explorer: https://mint.foundrynet.io
-- Python SDK: https://pypi.org/project/mint-attest
-- Protocol: https://foundrynet.io
+- **Explorer**: [mint-explorer.vercel.app](https://mint-explorer.vercel.app)
+- **API Docs**: [REST API Reference](https://mint-mcp-production.up.railway.app/docs)
+- **Python SDK**: [pypi.org/project/mint-attest](https://pypi.org/project/mint-attest)
+- **MCP Server**: [github.com/FoundryNet/mint-mcp](https://github.com/FoundryNet/mint-mcp)
+- **Protocol**: [foundrynet.io](https://foundrynet.io?utm_source=github&utm_medium=readme&utm_campaign=mint-attest-js)
 
 MIT licensed.
